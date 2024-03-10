@@ -25,6 +25,11 @@ return (
         alt="search"
       />
     </div>
+    <div className='map-section'>
+    <div className='gmap-frame'>
+    <iframe width="520" height="600" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps?width=520&amp;height=600&amp;hl=en&amp;q=Delhi+(Indian%20Institute%20of%20Information%20Technology,%20Delhi)&amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"><a href="https://www.gps.ie/">gps trackers</a></iframe>
+    </div>
+    </div>
     <Container>
       <Row>
         {Users.filter((user)=>user.title.toLowerCase().includes(query)).map((data, index) => (
